@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Travel Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Time Travel Clock</h1>
+        <select id="city-select">
+            <option value="Asia/Jakarta">Jakarta</option>
+            <option value="Asia/Tokyo">Tokyo</option>
+            <option value="Europe/London">London</option>
+            <option value="America/New_York">New York</option>
+        </select>
+
+        <div class="clock" id="clock">00:00:00</div>
+
+        <audio id="portal-sound" src="assets/portal-sound.mp3"></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
